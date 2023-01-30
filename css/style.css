@@ -1,0 +1,28 @@
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    margin: 10px;
+    padding: 20px;
+    background-color: cornflowerblue;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.block_1:hover {
+    background: #E91E63;
+    color: black;
+}
+
+.block_2:focus {
+    background: #512DA8;
+}
+
+.block_3:visited {
+    background: #FF8F00;
+}

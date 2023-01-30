@@ -1,0 +1,13 @@
+a {
+    font-size: 24px;
+    background-color: darkseagreen;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+a::before {
+    content: url("/Трансформації/img/play.png");
+    width: 30px;
+    height: 30px;
+}

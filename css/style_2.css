@@ -1,0 +1,100 @@
+p {
+    font-size: 24px;
+    background-color: bisque;
+}
+
+p:hover {
+    font-size: 24px;
+    color: blue;
+}
+
+/* p:hover::before {
+    background-image: url("https://images.unsplash.com/photo-1675007434327-085ab091c46f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+} */
+
+/* .block_1 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    background: #FF9800;
+    color: #E1F5FE;
+    text-decoration: none;
+    font-size: 56px;
+    padding: 30px 60px;
+    border-radius: 20px;
+}
+
+a::before {
+    background-size: 10px 20px;
+    display: inline-block;
+    opacity: 0;
+    content: ;
+}
+
+a:hover::before {
+    opacity: 1;
+    background-image: url('https://images.unsplash.com/photo-1675007434327-085ab091c46f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+    width: 10px; 
+    height: 20px;
+}
+
+p::before {
+    margin-right: 20px;
+    background-size: 10px 20px;
+    display: inline-block;
+    content:"Пила пилить детей";
+    color: red;
+} 
+
+p:hover::before {
+    color: #689F38;
+}
+
+p::after {
+    margin-left: 20px;
+    content: "Пила не розпилила дітей, вона занадто добра";
+    color: #283593;
+}
+
+p:hover::after {
+    background: #AD1457;
+    color: #0097A7;
+}
+
+p:hover::before {
+    opacity: 1;
+    background-image: url('https://images.unsplash.com/photo-1675069102000-42532f9e945c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+    width: 100px; 
+    height: 200px;
+} */
+
+p::after {
+    margin-left: 20px;
+    background-size: 100px 200px;
+    display: inline-block;
+    content:"";
+}
+
+p:hover::after {
+    opacity: 1;
+    background-image: url('https://images.unsplash.com/photo-1675069102000-42532f9e945c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+    width: 100px; 
+    height: 200px;
+}
+
+/* .box {
+    display: inline-block;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    background: #00897B;
+
+} */
+
+img {
+    height: 100px;
+}
